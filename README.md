@@ -111,9 +111,10 @@ You can extend this demo by adding:
 
 ## 🚀 Credits
 
-Built by **Imanshu**  
-An advanced interactive demo for web portfolio and projects.
+**Himanshu Patle**  
 
----
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/h_imanshu_01/?next=%2F)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himanshu-patle-2b563730b/)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imanshu-01)
 
 ⭐ If you like this project, feel free to star it and use it in your portfolio!
