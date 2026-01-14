@@ -54,11 +54,13 @@ https://source.unsplash.com/featured/768x768/?boy
 ```
 📦 root
  ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
+ ┣ 📜 styles.css
+ ┣ 📜 particles.js
+ ┣ 📜 README.md
+ ┣ 📜 LICENSE
+ ┣ 📜 app.js
  ┣ 📂 images
  ┃   ┣ 📜 loader.svg
- ┃   ┗ 📜 download.svg
 ```
 
 ---
