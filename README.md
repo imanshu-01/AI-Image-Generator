@@ -3,7 +3,9 @@
 A modern, responsive **AI-style Image Generator web application** that allows users to type a description and generate images based on that prompt.  
 This is a **frontend-only demo** that simulates AI image generation using online image sources for realistic visuals.
 
-🌐 **Live Demo:**  
+<img width="1596" height="894" alt="Image" src="https://github.com/user-attachments/assets/ef332ab4-86b9-4b91-abd4-0fbde3668112" />
+
+🌐 **Live Demo:**
 https://imanshusixth6web-2026.netlify.app/
 
 ---
