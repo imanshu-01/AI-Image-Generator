@@ -1,7 +1,7 @@
 const generateForm = document.querySelector(".generate-form");
 const ImageGallery = document.querySelector(".image-gallery");
 
-const PEXELS_API_KEY = "JI5rmqGcfMk0oJXPbhmijUdL5OSn2kamd85pBcxhyvnPxXMrjBCCH7fG";
+    const PEXELS_API_KEY = "ENTER YOU KEY HERE";
 
 async function generateImages(prompt, quantity) {
     try {
@@ -59,4 +59,5 @@ generateForm.addEventListener("submit", (e) => {
 
     generateImages(prompt, quantity);
 });
+
 
