@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI | Image Generator</title>
+    <!-- ✅ Favicon link -->
+    <link rel="icon" type="image/png" href="X.png">
+    <!-- ✅ Style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <div class="container">
+        <header>
+            <h1 class="logo"><i class="fas fa-robot"></i> AI Image Generator</h1>
+            <p class="tagline">Transform your imagination into stunning visuals with our advanced AI-powered image generator. Describe anything, and watch it come to life.</p>
+        </header>
+        
+        <section class="image-generator">
+            <form action="#" class="generate-form" id="generateForm">
+                <input type="text" class="prompt-input" id="promptInput" placeholder="Describe what you want to generate (e.g., 'A majestic dragon flying over a mountain at sunset')" required>
+                
+                <div class="controls">
+                    <select class="img-quantity" id="imgQuantity">
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Images</option>
+                        <option value="3">3 Images</option>
+                        <option value="4"selected>4 Images</option>
+                        <option value="5">5 Images</option>
+                        <option value="6">6 Images</option>
+                        <option value="7">7 Images</option>
+                        <option value="8">8 Images</option>
+                        <option value="9">9 Images</option>
+                        <option value="10">10 Images</option>
+                        <option value="11">11 Images</option>
+                        <option value="12">12 Images</option>
+                        <option value="13">13 Images</option>
+                        <option value="14">14 Images</option>
+                        <option value="15">15 Images</option>
+                        <option value="16">16 Images</option>
+                    </select>
+                    
+                    <button type="submit" class="generate-btn" id="generateBtn">
+                        <i class="fas fa-magic"></i> Generate Images
+                    </button>
+                </div>
+                
+                <div class="prompt-display" id="promptDisplay">
+                    Generating: <span id="currentPrompt"></span>
+                </div>
+                
+                <div class="status-message success" id="successMessage">
+                    <i class="fas fa-check-circle"></i> Images generated successfully!
+                </div>
+                
+                <div class="status-message error" id="errorMessage">
+                    <i class="fas fa-exclamation-circle"></i> Something went wrong. Please try again.
+                </div>
+            </form>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p class="loading-text">AI is creating your images...</p>
+            </div>
+        </section>
+        
+        <section class="image-gallery" id="imageGallery">
+            <!-- Images will be dynamically inserted here -->
+            <div class="img-card">
+                <img src="https://images.unsplash.com/photo-1682686580391-615b1f28e5ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Generated Image">
+                <a href="#" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="https://images.unsplash.com/photo-1682685797366-715d29e33f9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Generated Image">
+                <a href="#" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="https://images.unsplash.com/photo-1682687220015-186f63b8850a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Generated Image">
+                <a href="#" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI Generated Image">
+                <a href="#" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                </a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>AI Image Generator &copy; 2026 | Powered by Advanced JavaScript & AI Algorithms</p>
+            <p>Images are generated using AI models and are for demonstration purposes.</p>
+        </footer>
+    </div>
+
+    <!-- Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script src="particles.js"> </script>
+    <script src="app.js"></script>
+</body>
+</html>
